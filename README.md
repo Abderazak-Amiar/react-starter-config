@@ -18,9 +18,9 @@ The components folder structured following the atomic design principles
 This project use MUI library as a design system
 
 # How to use it
-1- Clone the repo : git clone https://github.com/Abderazak-Amiar/react-starter-config.git
-2- Install dependencies : npm i
-3- Create github secrets for the deployment and release actions.
+1. Clone the repo :** git clone** https://github.com/Abderazak-Amiar/react-starter-config.git
+2. Install dependencies : **npm i**
+3. Create** github secrets** for the deployment and release actions.
 
 For any questions or remarks related to this project, please contact me on linkedin: https://www.linkedin.com/in/zakamiar/
 
