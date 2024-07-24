@@ -10,6 +10,18 @@ This project generated with vite and preconfigured to use typescript.
 
 Prettier config included.
 
+# Jest & RTL
+
+Jest and React testing library config included.
+
+# Husky & lint-staged
+
+Husky & lint-staged config included.
+
+# MSW
+
+Mock Service Worker config included.
+
 # Github action CI/CD config
 
 Semantic-release included.
