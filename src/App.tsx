@@ -15,7 +15,6 @@ function App() {
   return (
     <>
       <h1>Azul</h1>
-      <h3>Azul</h3>
       {users.map((user: appPropTypes) => (
         <p key={user.id}>{user.name}</p>
       ))}
