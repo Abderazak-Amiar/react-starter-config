@@ -1,7 +1,8 @@
 import type { Config } from 'jest';
 
-const config: Config = {
-  setupFilesAfterEnv: ['<rootDir>/setupTests.ts'],
+export default async (): Promise<Config> => {
+  return {
+    verbose: true,
+    setupFilesAfterEnv: ['<rootDir>/jest-setup.ts'],
+  };
 };
-
-export default config;
