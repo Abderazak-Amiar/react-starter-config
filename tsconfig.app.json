@@ -21,7 +21,15 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    /* Alias */
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@constants/*": ["constants/*"]
+    },
+    "types": ["@testing-library/jest-dom"]
   },
-  "include": ["src"]
+
+  "include": ["src", "./jest-setup.ts"]
 }
