@@ -5,15 +5,15 @@ export const handlers = [
     return HttpResponse.json([
       {
         id: 1,
-        name: 'Abderazak Amiar',
+        name: 'John',
       },
       {
         id: 2,
-        name: 'Fatma Amiar',
+        name: 'Mark',
       },
       {
         id: 3,
-        name: 'Asalas Amiar',
+        name: 'Thomas',
       },
     ]);
   }),
